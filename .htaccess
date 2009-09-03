@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /noonat/
+RewriteRule ^$ /noonat/index.php?action=posts [L,QSA]
+RewriteRule ^php - [F]
+RewriteRule ^archive/?$ http://noonat.tumblr.com/archive [R]
+RewriteRule ^post/([^/]+)/.*/?$ /noonat/index.php?action=post&post_id=$1 [L,QSA]
+RewriteRule ^rss/?$ http://noonat.tumblr.com/rss [R]
+RewriteRule ^search/?$ /noonat/index.php?action=search [L,QSA]

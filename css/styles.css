@@ -1,0 +1,54 @@
+a { color:#666; }
+a:hover { color:#000; }
+
+.container { width:800px; }
+.container #nav { padding:2em 0; text-align:right; }
+.container #nav ul { list-style:none; margin:0; }
+.container #nav ul li { display:inline; margin-left:2em; }
+.container #nav ul li a { background:#eaeaea; padding:3px 6px; text-decoration:none; }
+.container #nav ul li a:hover { background:#000; color:#fff; }
+.container #body { width:500px; }
+.container #mast { margin-left:10px; text-align:center; }
+.container #mast h1 a {
+   background:#000;
+   color:#fff;
+   display: block;
+   font-weight:bold;
+   letter-spacing:-2px;
+   padding:0.5em 0 0.7em 0;
+   text-align:center;
+   text-indent:-4px;
+   text-decoration:none;
+}
+.container #mast h1 a:hover { background:#eaeaea; color:#000; }
+.container #mast .contact { font-size:0.9em; margin-top:1em; }
+
+.post { clear:left; float:left; margin-bottom:3em; position:relative; width:100%; }
+body.action_post .post { margin-bottom:0; }
+.post .permalink { position:absolute; left:-1.8em; top:0.2em; }
+.post .meta { color:#bbb; font-size:0.8em; margin-top:0.6em; }
+.post .meta .comments { float:left; }
+.post .meta .comments a { color:#999; }
+.post .meta .comments a:hover { color:#000; }
+.post .meta .date { float:right; text-transform:uppercase; }
+.post .meta .date .month { font-weight:bold; }
+.post .comments_thread { clear:left; padding-top:1.5em; }
+
+.post .conversation .permalink { top:-0.3em; }
+.post .conversation .conversation_title { font-size:1.5em; font-weight:bold; }
+.post .link { line-height:1.3; }
+.post .link .link_text { font-size:1.5em; font-weight:bold; }
+.post .link .link_description { display:block; }
+.post .photo .permalink { top:auto; }
+.post .regular .regular_title { font-size:1.5em; font-weight:bold; }
+.post .quote .permalink { top:0.6em; }
+.post .quote .quote_text { font-size:2em; }
+.post .quote .quote_source { color:#666; font-size:2em; }
+
+.container #dsq-content h3 { font-size:1.0em; }
+.container #dsq-content #dsq-options{ display:none; }
+.container #dsq-content #dsq-comments .dsq-comment-header{ background:none; height:auto; line-height:1; }
+.container #dsq-content #dsq-comments .dsq-comment-header cite{ margin:0; }
+.container #dsq-content #dsq-comments .dsq-comment-header .dsq-mod-star{ left:-15px; margin-top:-1px; position:absolute; }
+.container #dsq-content #dsq-comments .dsq-comment-footer{ display:none; }
+.container .dsq-brlink { font-family:arial; }
