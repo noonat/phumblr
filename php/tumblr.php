@@ -115,7 +115,17 @@ class Tumblr_HTTP {
    static $_cache_pending = array();
    
    static function get($url, $fn=null) {
-      $json = file_get_contents($url);
+      if (function_exists('curl_init')) {
+         $ch = curl_init();
+         curl_setopt($ch, CURLOPT_URL, $url);
+         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+         $json = curl_exec($ch);
+         curl_close($ch);
+      }
+      else {
+         $json = file_get_contents($url);
+      }
       if (preg_match('/^.+?(\{.+\});$/m', $json, $matches)) {
          $json = $matches[1];
       }
