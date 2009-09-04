@@ -1,3 +1,5 @@
+AddHandler php5-script .php
+
 RewriteEngine on
 
 RewriteRule ^php - [F]
