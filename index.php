@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('America/Los_Angeles');
-$url_prefix = 'http://localhost/noonat';
+$url_prefix = 'http://noonat.phuce.com';
 
 include 'php/tumblr.php';
 $tumblr = new Tumblr('noonat');
