@@ -2,6 +2,7 @@ a { color:#666; }
 a:hover { color:#000; }
 
 .container { width:800px; }
+.container p { margin:1em 0; }
 .container #nav { padding:2em 0; text-align:right; }
 .container #nav ul { list-style:none; margin:0; }
 .container #nav ul li { display:inline; margin-left:2em; }

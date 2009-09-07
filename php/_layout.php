@@ -4,12 +4,12 @@
 <head>
    <title><?php if (!empty($title)): echo "$title - "; endif; ?>noonat+games</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <link rel="shortcut icon" href="http://7.media.tumblr.com/avatar_d74a28b04fef_16.png">
-   <link rel="alternate" type="application/rss+xml" href="<?php echo $url_prefix; ?>/rss">
-   <link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/screen.css" type="text/css" media="screen, projection">
-   <link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/print.css" type="text/css" media="print">
-   <!--[if lt IE 8]><link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-   <link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+   <link rel="shortcut icon" href="http://7.media.tumblr.com/avatar_d74a28b04fef_16.png"/>
+   <link rel="alternate" type="application/rss+xml" href="<?php echo $url_prefix; ?>/rss"/>
+   <link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/screen.css" type="text/css" media="screen, projection"/>
+   <link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/print.css" type="text/css" media="print"/>
+   <!--[if lt IE 8]><link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/ie.css" type="text/css" media="screen, projection"/><![endif]-->
+   <!--<link rel="stylesheet" href="<?php echo $url_prefix; ?>/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection"/>-->
    <link rel="stylesheet" type="text/css" href="<?php echo $url_prefix; ?>/css/styles.css"/>
 </head>
 
@@ -31,6 +31,7 @@
          </form>
       </div>
       <div class="contact">
+         <a href="http://github.com/noonat">github.com/noonat</a><br/>
          email
          <script type="text/javascript">
          function omclick(){ window.location='mai'+'lto:'+this.innerHTML; };
